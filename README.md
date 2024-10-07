@@ -1,5 +1,5 @@
 # 项目目的
-基于成熟的 https://github.com/mqttjs  mqtt.js `4.3.8`版本进行改造。 改造。提升它对uniapp等环境的适配。这里不使用5.x版本的原因是因为，5.x版本全面使用ts进行编写，uniapp对ts的支持大坑（如：不支持??语法和三目运算符。非常离谱）。
+基于成熟的 https://github.com/mqttjs  mqtt.js `4.3.8`版本进行改造。 提升它对uniapp等环境的适配。这里不使用5.x版本的原因是因为5.x版本全面使用ts进行编写，uniapp对ts的支持有大坑（如：不支持??语法和三目运算符。非常离谱）。
 
 # 修改点
 针对uniapp环境的独特性，它不能使用常规的方式进行创建websocket，所以本次改造将允许自定义websocket
